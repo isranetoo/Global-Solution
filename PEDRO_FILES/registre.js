@@ -31,6 +31,10 @@ document.addEventListener('DOMContentLoaded', function() {
                             // É um email válido, continue o código aqui...
                             console.log("O email é válido: " + email_registro);
                             registrese_text14k.style.opacity = "1";
+                            localStorage.setItem("nome", nome);
+                            localStorage.setItem("rg", rg);
+                            localStorage.setItem("senha_registro", senha_registro);
+                            localStorage.setItem("email", email_registro);
                             setTimeout(function() {
                                 // Redirecionar para a página "index.html"
                                 window.location.href = "index.html";
@@ -63,13 +67,33 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById("botaoVerificar").addEventListener('click', function() {
         var email_login = document.getElementById("divEmail").value;
         var senha_login = document.getElementById("divSenha").value;
-        if (email_login.value === email_registro && senha_login.value === senha_registro) {
+        var email_puxa = localStorage.getItem("email");
+        var senha_puxa = localStorage.getItem("senha_registro");
+        if (email_login === email_puxa && senha_login === senha_puxa) {
             window.location.href = "feed.html";
         } else {
             alert("E-mail ou senha inválidos. Tente novamente ou registre-se.");
+            console.log("Email Salvo " + email_puxa)
+            console.log('Senha Salva '+ senha_puxa)
         }
     });
 });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Recuperar a variável do localStorage
+    var nome_pagina = localStorage.getItem("nome");
+
+    // Verificar se a variável existe
+    if (nome_pagina) {
+        // A variável existe, definir o texto do span com o valor da variável
+        document.getElementById("Nome_User").textContent = nome_pagina;
+    } else {
+        // A variável não existe, trate o caso conforme necessário
+        console.log("Variável não encontrada");
+    }
+});
+
 
 
 
