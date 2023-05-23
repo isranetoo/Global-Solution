@@ -194,22 +194,7 @@ input {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.interesses2-group1000004139 {
+.proximo {
   top: 559px;
   left: 986px;
   width: 118px;
@@ -219,7 +204,7 @@ input {
   align-items: flex-start;
   flex-shrink: 1;
 }
-.interesses2-text20 {
+.proximo-texto{
   top: 5.000001430511475px;
   color: rgba(0, 0, 0, 1);
   height: auto;
@@ -240,7 +225,7 @@ input {
   height: 34px;
   position: absolute;
 }
-.interesses2-group10000041431 {
+.volta {
   top: 558.9999389648438px;
   left: 78px;
   width: 96px;
@@ -250,7 +235,7 @@ input {
   align-items: flex-start;
   flex-shrink: 1;
 }
-.interesses2-text22 {
+.volta-texto {
   top: 5.000231742858887px;
   left: 40px;
   color: rgba(0, 0, 0, 1);
