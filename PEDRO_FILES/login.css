@@ -21,6 +21,7 @@
   left: 548px;
   width: 565px;
   height: 399px;
+  border-radius: 22px;
   display: flex;
   position: absolute;
   align-items: flex-start;
@@ -32,6 +33,7 @@
   left: 0px;
   width: 565px;
   height: 71px;
+  border-radius: 22px;
   display: flex;
   position: absolute;
   align-items: flex-start;
@@ -42,6 +44,7 @@
   left: 0px;
   width: 565px;
   height: 71px;
+  border-radius: 22px 22px 0 0;
   display: flex;
   position: absolute;
   align-items: flex-start;
@@ -53,18 +56,27 @@
   left: 282px;
   width: 283px;
   height: 71px;
+  border-radius: 0 22px 0 0;
   display: flex;
   position: absolute;
   align-items: flex-start;
   flex-shrink: 1;
-  border-radius: var(--dl-radius-radius-radius8);
   background-color: rgba(134, 134, 134, 1);
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+  transition: background-color 0.5s ease;
 }
-.login-text {
+.login-group1000004154:hover {
+  top: 0px;
+  left: 282px;
+  width: 283px;
+  height: 71px;
+  border-radius: 0 22px 0 0;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgb(165, 165, 165);
+}
+.registre-text {
   top: 22px;
   left: 50px;
   color: rgba(255, 255, 255, 1);
@@ -105,7 +117,7 @@
   position: absolute;
   align-items: flex-start;
   flex-shrink: 1;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgb(255, 255, 255);
 }
 .login-text04 {
   top: 12px;
@@ -136,7 +148,7 @@
 .login-text06 {
   top: 12px;
   left: 20px;
-  color: rgba(204, 204, 204, 1);
+  color: rgb(129, 129, 129);
   height: auto;
   position: absolute;
   font-size: 20px;
@@ -147,6 +159,25 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+}
+.login-text06:focus {
+  top: 12px;
+  left: 20px;
+  color: rgb(85, 85, 85);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  outline: none;
+}
+.input-style-login:focus{
+  outline: none;
 }
 .login-group1000004130 {
   top: 495px;

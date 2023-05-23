@@ -26,6 +26,17 @@
   align-items: flex-start;
   flex-shrink: 1;
 }
+.input-style-login:focus{
+  outline: none;
+}
+.input-style-login{
+  outline: none;
+}
+.Texto_cadastro{
+  opacity: 0%;
+}
+.log
+.log
 .registrese-menu-registese {
   top: 0px;
   left: 0px;
@@ -270,9 +281,10 @@
   position: absolute;
   border-radius: 10px;
 }
-.registrese-text14 {
+.registrese_text14 {
   top: 310px;
   left: 7px;
+  opacity: 0;
   color: rgba(0, 149, 49, 1);
   height: auto;
   position: absolute;
