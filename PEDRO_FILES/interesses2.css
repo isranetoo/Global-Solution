@@ -50,63 +50,32 @@ input {
   padding: 2px 4px;
 }
 
-.interesses2-whats-app-image20230518at5061 {
-  top: 44px;
-  left: 677px;
+.logo {
+  top: 25px;
+  left: 360px;
   width: 549px;
-  height: 121px;
+  height: 141px;
   position: absolute;
 }
-.interesses2-group1000004143 {
+.box {
   top: 190px;
   left: 20%;
-  width: 1187px;
   height: 619px;
-  display: flex;
   position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.interesses2-group1000004142 {
-  top: 0px;
-  left: 0px;
-  width: 1187px;
-  height: 619px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.interesses2-group1000004141 {
-  top: 0px;
-  left: 0px;
-  width: 1187px;
-  height: 619px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.interesses2-group1000004129 {
-  top: 0px;
-  left: 0px;
-  width: 1187px;
-  height: 619px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
+  border-radius: 25px;
   background-color: rgba(217, 217, 217, 1);
+  box-shadow: 0 15px 8px 0 rgba(0, 0, 0, 0.2), 0 25px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.interesses2-rectangle5100 {
-  top: 0px;
-  left: 0px;
+
+.retangulo {
   width: 1187px;
-  height: 91px;
-  position: absolute;
-  border-radius: 21px 21px 0 0;
+  height: 100px;
+  background-color: #C1C1C1;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
 }
-.interesses2-group1000004140 {
+
+.retangulo-texto {
   top: 10px;
   left: 275px;
   width: 637px;
@@ -116,163 +85,48 @@ input {
   align-items: flex-start;
   flex-shrink: 1;
 }
-.interesses2-text {
-  color: rgba(0, 0, 0, 1);
-  height: auto;
-  position: absolute;
+.text {
   font-size: 40px;
-  font-style: Regular;
-  text-align: center;
   font-family: Inter;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
 }
-.interesses2-text02 {
+
+.text-2 {
   top: 48px;
   left: 145px;
-  color: rgba(0, 0, 0, 1);
-  height: auto;
   position: absolute;
   font-size: 20px;
-  font-style: Regular;
   text-align: center;
   font-family: Inter;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
 }
-.interesses2-group1000004138 {
+.mini-box {
   top: 148px;
   left: 226px;
-  width: 735px;
-  height: 354px;
-  display: flex;
   position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
 }
-.interesses2-group1000004136 {
-  top: 0px;
-  left: 0px;
-  width: 735px;
-  height: 147px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.interesses2-group1000004131 {
-  top: 0px;
-  left: 0px;
-  width: 123px;
-  height: 147px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.interesses2-text04 {
-  top: 123px;
+
+.texto-box {
+  top: 130px;
   left: 10px;
-  color: rgba(0, 0, 0, 1);
-  height: auto;
   position: absolute;
   font-size: 20px;
-  font-style: Regular;
-  text-align: center;
   font-family: Inter;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
+  text-align: center;
 }
-.interesses2-rectangle5107 {
-  top: 0px;
-  left: 0px;
-  width: 123px;
-  height: 123px;
-  position: absolute;
-  border-color: rgba(0, 149, 49, 1);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 13px;
-}
-.interesses2-group1000004133 {
+
+.jardinagem {
   top: 0px;
   left: 306px;
-  width: 123px;
-  height: 147px;
-  display: flex;
   position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
 }
-.interesses2-text06 {
-  top: 123px;
-  left: 6px;
-  color: rgba(0, 0, 0, 1);
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Regular;
-  text-align: center;
-  font-family: Inter;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.interesses2-rectangle51071 {
-  top: 0px;
-  left: 0px;
-  width: 123px;
-  height: 123px;
-  position: absolute;
-  border-color: rgba(0, 149, 49, 1);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 13px;
-}
-.interesses2-group1000004132 {
+
+.esporte {
   top: 0px;
   left: 153px;
-  width: 123px;
-  height: 147px;
-  display: flex;
   position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
 }
-.interesses2-text08 {
-  top: 123px;
-  left: 24px;
-  color: rgba(0, 0, 0, 1);
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Regular;
-  text-align: center;
-  font-family: Inter;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.interesses2-rectangle51072 {
-  top: 0px;
-  left: 0px;
-  width: 123px;
-  height: 123px;
-  position: absolute;
-  border-color: rgba(0, 149, 49, 1);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 13px;
-}
-.interesses2-group1000004134 {
+
+
+.culinaria {
   top: 0px;
   left: 459px;
   width: 123px;
@@ -297,17 +151,7 @@ input {
   font-stretch: normal;
   text-decoration: none;
 }
-.interesses2-rectangle51073 {
-  top: 0px;
-  left: 0px;
-  width: 123px;
-  height: 123px;
-  position: absolute;
-  border-color: rgba(0, 149, 49, 1);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 13px;
-}
+
 .interesses2-group1000004135 {
   top: 0px;
   left: 612px;
@@ -333,17 +177,7 @@ input {
   font-stretch: normal;
   text-decoration: none;
 }
-.interesses2-rectangle51074 {
-  top: 0px;
-  left: 0px;
-  width: 123px;
-  height: 123px;
-  position: absolute;
-  border-color: rgba(0, 149, 49, 1);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 13px;
-}
+
 .interesses2-group1000004137 {
   top: 207px;
   left: 152px;
@@ -379,17 +213,7 @@ input {
   font-stretch: normal;
   text-decoration: none;
 }
-.interesses2-rectangle51075 {
-  top: 0px;
-  left: 0px;
-  width: 123px;
-  height: 123px;
-  position: absolute;
-  border-color: rgba(0, 149, 49, 1);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 13px;
-}
+
 .interesses2-group10000041331 {
   top: 0px;
   left: 306px;
@@ -415,17 +239,7 @@ input {
   font-stretch: normal;
   text-decoration: none;
 }
-.interesses2-rectangle51076 {
-  top: 0px;
-  left: 0px;
-  width: 123px;
-  height: 123px;
-  position: absolute;
-  border-color: rgba(0, 149, 49, 1);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 13px;
-}
+
 .interesses2-group10000041321 {
   top: 0px;
   left: 153px;
@@ -451,17 +265,7 @@ input {
   font-stretch: normal;
   text-decoration: none;
 }
-.interesses2-rectangle51077 {
-  top: 0px;
-  left: 0px;
-  width: 123px;
-  height: 123px;
-  position: absolute;
-  border-color: rgba(0, 149, 49, 1);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 13px;
-}
+
 .interesses2-group1000004139 {
   top: 559px;
   left: 986px;
