@@ -99,6 +99,7 @@ input {
   font-family: Inter;
 }
 .mini-box {
+  width: 735px;
   top: 148px;
   left: 226px;
   position: absolute;
@@ -106,11 +107,9 @@ input {
 
 .texto-box {
   top: 130px;
-  left: 10px;
   position: absolute;
   font-size: 20px;
   font-family: Inter;
-  text-align: center;
 }
 
 .jardinagem {
@@ -136,23 +135,9 @@ input {
   align-items: flex-start;
   flex-shrink: 1;
 }
-.interesses2-text10 {
-  top: 123px;
-  left: 20px;
-  color: rgba(0, 0, 0, 1);
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Regular;
-  text-align: center;
-  font-family: Inter;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
 
-.interesses2-group1000004135 {
+
+.moda {
   top: 0px;
   left: 612px;
   width: 123px;
@@ -162,23 +147,8 @@ input {
   align-items: flex-start;
   flex-shrink: 1;
 }
-.interesses2-text12 {
-  top: 123px;
-  left: 34px;
-  color: rgba(0, 0, 0, 1);
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Regular;
-  text-align: center;
-  font-family: Inter;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
 
-.interesses2-group1000004137 {
+.box-2 {
   top: 207px;
   left: 152px;
   width: 429px;
@@ -188,7 +158,7 @@ input {
   align-items: flex-start;
   flex-shrink: 1;
 }
-.interesses2-group10000041311 {
+.transporte {
   top: 0px;
   left: 0px;
   width: 123px;
@@ -198,23 +168,8 @@ input {
   align-items: flex-start;
   flex-shrink: 1;
 }
-.interesses2-text14 {
-  top: 123px;
-  left: 9px;
-  color: rgba(0, 0, 0, 1);
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Regular;
-  text-align: center;
-  font-family: Inter;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
 
-.interesses2-group10000041331 {
+.saude{
   top: 0px;
   left: 306px;
   width: 123px;
@@ -224,23 +179,8 @@ input {
   align-items: flex-start;
   flex-shrink: 1;
 }
-.interesses2-text16 {
-  top: 123px;
-  left: 31px;
-  color: rgba(0, 0, 0, 1);
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Regular;
-  text-align: center;
-  font-family: Inter;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
 
-.interesses2-group10000041321 {
+.arte{
   top: 0px;
   left: 153px;
   width: 123px;
@@ -250,21 +190,24 @@ input {
   align-items: flex-start;
   flex-shrink: 1;
 }
-.interesses2-text18 {
-  top: 123px;
-  left: 41px;
-  color: rgba(0, 0, 0, 1);
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Regular;
-  text-align: center;
-  font-family: Inter;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .interesses2-group1000004139 {
   top: 559px;
