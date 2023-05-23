@@ -1,31 +1,65 @@
-.interesses2-container {
-  width: 100%;
-  display: flex;
-  overflow: auto;
-  min-height: 100vh;
-  align-items: center;
-  flex-direction: column;
+* {
+  margin: 0;
 }
-.interesses2-interesses2 {
-  width: 100%;
-  height: 1000px;
-  display: flex;
-  overflow: hidden;
-  position: relative;
-  align-items: flex-start;
-  flex-shrink: 0;
+
+body{
   background-color: rgba(0, 149, 48, 1);
 }
+  
+p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {
+      margin: 0;  
+      padding: 0;
+    }
+  
+button{  
+    background-color: 
+    transparent;
+  }
+  
+button,input,optgroup,select,textarea{ 
+     font-family: 
+     inherit;  
+     font-size: 100%;
+     line-height: 1.15;  
+     margin: 0;
+  }
+  
+button,select {
+     text-transform: none;
+  }
+  
+button,[type="button"],[type="reset"],[type="submit"] {
+     -webkit-appearance: button;
+  }
+     
+button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {
+    border-style: none;  
+    padding: 0;
+  }
+  
+button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  
+    outline: 1px dotted ButtonText;
+  }
+  
+a {  
+    color: inherit;  
+    text-decoration: inherit;
+  }
+  
+input {  
+  padding: 2px 4px;
+}
+
 .interesses2-whats-app-image20230518at5061 {
   top: 44px;
-  left: 556px;
+  left: 677px;
   width: 549px;
   height: 121px;
   position: absolute;
 }
 .interesses2-group1000004143 {
   top: 190px;
-  left: 237px;
+  left: 20%;
   width: 1187px;
   height: 619px;
   display: flex;
