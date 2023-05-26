@@ -1,321 +1,98 @@
-.registrese-container {
-  width: 100%;
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: #009531;
+}
+
+a{
+  text-decoration: none;
+}
+
+.logo{
+  top: 45px;
+  width: 550px;
+  height: 130px;
+  margin: 30px 0px 20px 700px;
+}
+
+.box{
+  margin: auto;
+  height: 660px;
+  width: 620px;
+  background-color: #D9D9D9;
+  border-radius: 25px;
+  box-shadow: 10px 10px 20px;
+}
+
+.btns{
   display: flex;
-  overflow: auto;
-  min-height: 100vh;
-  align-items: center;
+  width: 500px;
+  height: 80px;
+}
+
+
+.btn-log-res{
+  width: 310px;
+  height: 80px;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.btn-log-res:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.login button{
+  border-top-left-radius: 25px;
+  background: #878787;
+}
+
+.registra-se button{
+  border-top-right-radius: 25px;
+  background-color: #C1C1C1;
+}
+
+.cadastros{
+  padding: 20px;
+  display: flex;
   flex-direction: column;
+  margin: auto;
 }
-.registrese-registrese {
-  width: 100%;
-  height: 1000px;
-  display: flex;
-  overflow: hidden;
-  position: relative;
-  align-items: flex-start;
-  flex-shrink: 0;
-  background-color: rgba(0, 149, 49, 1);
+
+
+input, select {
+  width: 75%;
+  padding: 25px 20px;
+  margin: 0px 75px 10px 75px;
+  border: 2px solid #ccc;
+  border-radius: 25px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: bold;
 }
-.registrese-group1000004147 {
-  top: 190px;
-  left: 547px;
-  width: 566px;
-  height: 619px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
+
+input[type=submit] {
+  width: 50%;
+  background-color: #009531;
+  color: white;
+  padding: 20px 20px;
+  margin: 46px 145px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
 }
-.input-style-login:focus{
-  outline: none;
-}
-.input-style-login{
-  outline: none;
-}
-.Texto_cadastro{
-  opacity: 0%;
-}
-.log
-.log
-.registrese-menu-registese {
-  top: 0px;
-  left: 0px;
-  width: 566px;
-  height: 619px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.registrese-re-menu {
-  top: 0px;
-  left: 0px;
-  width: 566px;
-  height: 619px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.registrese-rectangle5099 {
-  top: 0px;
-  left: 1px;
-  width: 565px;
-  height: 619px;
-  position: absolute;
-  border-radius: 21px;
-}
-.registrese-rectangle5100 {
-  top: 0px;
-  left: 1px;
-  width: 565px;
-  height: 71px;
-  position: absolute;
-  border-radius: 21px 21px 0 0;
-}
-.registrese-text {
-  top: 22px;
-  left: 333px;
-  color: rgba(255, 255, 255, 1);
-  width: 183px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Regular;
-  text-align: center;
-  font-family: Inter;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.registrese-rectangle5101 {
-  top: 0px;
-  left: 0px;
-  width: 283px;
-  height: 71px;
-  position: absolute;
-  border-radius: 21px 0 0;
-}
-.registrese-text02 {
-  top: 22px;
-  left: 50px;
-  color: rgba(255, 255, 255, 1);
-  width: 183px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Regular;
-  text-align: center;
-  font-family: Inter;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.registrese-group1000004146 {
-  top: 140px;
-  left: 60px;
-  width: 446px;
-  height: 404px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.registrese-group1000004169 {
-  top: 0px;
-  left: 0px;
-  width: 446px;
-  height: 404px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.registrese-group1000004148 {
-  top: 0px;
-  left: 0px;
-  width: 446px;
-  height: 48px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-  background-color: rgba(255, 255, 255, 1);
-}
-.registrese-text04 {
-  top: 12px;
-  left: 20px;
-  color: rgba(204, 204, 204, 1);
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Regular;
-  text-align: center;
-  font-family: Inter;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.registrese-group1000004151 {
-  top: 122px;
-  left: 0px;
-  width: 446px;
-  height: 48px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-  background-color: rgba(255, 255, 255, 1);
-}
-.registrese-text06 {
-  top: 12px;
-  left: 20px;
-  color: rgba(204, 204, 204, 1);
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Inter;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.registrese-group1000004150 {
-  top: 61px;
-  left: 0px;
-  width: 446px;
-  height: 48px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.registrese-group1000004149 {
-  top: 0px;
-  left: 0px;
-  width: 446px;
-  height: 48px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-  background-color: rgba(255, 255, 255, 1);
-}
-.registrese-text08 {
-  top: 12px;
-  left: 20px;
-  color: rgba(204, 204, 204, 1);
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Inter;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.registrese-group1000004152 {
-  top: 183px;
-  left: 0px;
-  width: 446px;
-  height: 48px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-  background-color: rgba(255, 255, 255, 1);
-}
-.registrese-text10 {
-  top: 12px;
-  left: 20px;
-  color: rgba(204, 204, 204, 1);
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Inter;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.registrese-group1000004153 {
-  top: 244px;
-  left: 0px;
-  width: 446px;
-  height: 48px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-  background-color: rgba(255, 255, 255, 1);
-}
-.registrese-text12 {
-  top: 12px;
-  left: 20px;
-  color: rgba(204, 204, 204, 1);
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Inter;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.registrese-rectangle5106 {
-  top: 352px;
-  left: 89px;
-  width: 269px;
-  height: 52px;
-  position: absolute;
-  border-radius: 10px;
-}
-.registrese_text14 {
-  top: 310px;
-  left: 7px;
-  opacity: 0;
-  color: rgba(0, 149, 49, 1);
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Inter;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.registrese-text16 {
-  top: 366px;
-  left: 180px;
-  color: rgba(255, 255, 255, 1);
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Inter;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.registrese-whats-app-image20230518at5061 {
-  top: 44px;
-  left: 556px;
-  width: 549px;
-  height: 121px;
-  position: absolute;
+
+input[type=submit]:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
