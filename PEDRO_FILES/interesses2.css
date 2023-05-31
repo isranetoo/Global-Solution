@@ -223,3 +223,102 @@ p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {
   height: 34px;
   position: absolute;
 }
+
+
+
+
+@media screen and (max-width: 1200px) {
+  .logo {
+    left: 175px;
+  }
+  
+  .box{
+    left: 150px;
+    width: 980px;
+  }
+
+  .retangulo{
+    width: 980px;
+  }
+
+  .retangulo-texto{
+    left: 250px;
+  }
+
+  .mini-box{
+    left: 130px;
+  }
+
+
+  .proximo{
+    left: 740px;
+  }
+
+}
+
+
+@media screen and (max-width: 800px) {
+  .logo {
+    left: 50px;
+  }
+  
+  .box{
+    height: 840px;
+    left: 5%;
+    width: 620px;
+  }
+
+  .retangulo{
+    width: 620px;
+  }
+
+  .retangulo-texto{
+    left: 65px;
+  }
+
+  .text{
+    font-size: 30px;
+  }
+
+  .text-2{
+    left: 80px;
+  }
+
+  .mini-box{
+    left: 100px;
+  }
+
+  .culinaria{
+    top: 207px;
+    left: 0px;
+  }
+
+  .moda{
+    left: 153px;
+    top: 207px;
+  }
+
+  .transporte{
+    left: 152px;
+  }
+
+  .arte{
+    top: 180px;
+    left: -75px;
+  }
+
+  .saude{
+    top: 180px;
+    left: 90px;
+  }
+
+  .volta{
+    top: 770px;
+  }
+
+  .proximo{
+    top: 770px;
+    left: 410px;
+  }
+
+}
