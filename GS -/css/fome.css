@@ -76,7 +76,7 @@ section{
 	position: relative;
 	height: 100vh;
 	width: 100%;
-	background-image: url(../img/home.jpg);
+	background-image: url(../img/fome.jpg);
 	background-size: cover;
 	background-position: center;
 	display: flex;
@@ -205,133 +205,94 @@ header.sticky{
 	margin-bottom: 4rem;
 }
 
-.fome{
+
+.contato{
 	background: var(--second-bg-color);
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+	gap: 2.5rem;
 }
-.main-text{
-	text-align: center;
+.contato-text h4{
+	color: var(--text-color);
+	margin: 18px 0;
+	font-size: 20px;
+	font-weight: 600;
 }
-.main-text p{
-	color: var(--second-color);
-	font-size: 15px;
-	margin-bottom: 15px;
-}
-.main-text h2{
+.contato-text h2{
 	font-size: var(--h2-font);
 	line-height: 1;
 }
-.fome-content{
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(250px, auto));
-	align-items: center;
-	gap: 2.5rem;
-	margin-top: 5rem;
-}
-.box{
-	background: var(--bg-color);
-	padding: 35px 45px;
-	border-radius: 8px;
-	transition: all .45s ease;
-}
-.s-icons i{
-	font-size: 32px;
-	margin-bottom: 20px;
-}
-.box h3{
-	font-size: 24px;
-	font-weight: 600;
-	color: var(--text-color);
-	margin-bottom: 15px;
-}
-.box p{
+.contato-text p{
 	color: var(--second-color);
-	font-size: 1rem;
+	font-size: var(--p-font);
 	line-height: 1.8;
-	margin-bottom: 25px;
+	margin-bottom: 30px;
 }
-.read{
-	display: inline-block;
-	padding: 8px 18px;
-	background: #333333;
+.list{
+	margin-bottom: 2.8rem;
+}
+.list li{
+	margin-bottom: 12px;
+}
+.list li a{
+	display: block;
 	color: var(--second-color);
 	font-size: 14px;
-	font-weight: 500;
-	border-radius: 8px;
 	transition: all .45s ease;
 }
-.read:hover{
-	letter-spacing: 1px;
-	background: #ffffff99;
+.list li a:hover{
 	color: var(--text-color);
+	transform: translateX(5px);
 }
-.box:hover{
-	transform: translateY(-8px);
-	cursor: pointer;
+.contato-icons i{
+	height: 45px;
+	width: 45px;
+	background: var(--main-color);
+	color: var(--text-color);
+	font-size: 22px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 8px;
+	margin-right: 15px;
+	transition: all .45s ease;
+}
+.contato-icons i:hover{
+	background: var(--text-color);
+	color: var(--main-color);
 }
 
-.sustentabilidade-content{
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(350px, auto));
-	align-items: center;
-	gap: 2.5rem;
-	margin-top: 5rem;
-}
-.row{
+.contato-form form{
 	position: relative;
-	overflow: hidden;
-	border-radius: 8px;
-	cursor: pointer;
 }
-.row img{
+.contato-form form input,
+form textarea{
 	width: 100%;
+	padding: 14px;
+	background: var(--bg-color);
+	color: var(--text-color);
+	border: none;
+	outline: none;
+	font-size: 15px;
 	border-radius: 8px;
-	display: block;
-	transition: transform 0.5s;
+	margin-bottom: 10px;
 }
-.layer{
-	width: 100%;
-	height: 0;
-	background: linear-gradient(rgba(0,0,0,0.1), #358C8F);
-	position: absolute;
-	border-radius: 8px;
-	left: 0;
-	bottom: 0;
-	overflow: hidden;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	padding: 0 40px;
-	transition: height 0.5s;
+.contato-form textarea{
+	resize: none;
+	height: 240px;
 }
-.layer h5{
-	font-size: 20px;
-	font-weight: 600;
-	margin-bottom: 15px;
+.contato-form .submit{
+	display: inline-block;
+	font-size: 16px;
+	background: var(--main-color);
+	color: var(--text-color);
+	width: 160px;
+	transition: all .45s ease;
 }
-.layer p{
-	color: var(--second-color);
-	font-size: 1rem;
-	line-height: 1.8;
-}
-.layer i{
-	color: var(--main-color);
-	margin-top: 20px;
-	font-size: 20px;
-	background: var(--text-color);
-	width: 60px;
-	height: 60px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border-radius: 50%;
-}
-.row:hover img{
+.contato-form .submit:hover{
 	transform: scale(1.1);
-}
-.row:hover .layer{
-	height: 100%;
+	cursor: pointer;
 }
 
 .end{
@@ -341,7 +302,7 @@ header.sticky{
 	align-items: center;
 	justify-content: space-between;
 	gap: 2rem;
-	background: var(--second-bg-color);
+	background: var(--bg-color);
 }
 .last-text p{
 	color: var(--second-color);
