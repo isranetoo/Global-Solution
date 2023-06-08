@@ -4,48 +4,150 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Green Hub</title>
+    <title>Green Hub - Home</title>
 
-    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 </head>
 <body>
-   
-    <img class="logo" src="./img/logo-tranparente.png" alt="Logo">
-        
-        <div class="box">
-            
-
-            <div class="btns">
-                <div class="login">
-                    <a href="./login.html"><button class="btn-log-res">Login</button></a>
+    <div class="wrapper">
+        <div class="sidebar">
+            <img class="logo" src="./img/logo-200x100.png" alt="">
+            <a href="#"><h2>Menu</h2></a>
+            <ul>
+                <li><a href="./profile.html"><i class="fas fa-user"></i>Perfil</a></li>
+                <li><a href="./feed.html"><i class="fas fa-table"></i>Feed</a></li>
+                <li><a href="#"><i class="fas fa-envelope"></i>Menssagens</a></li>
+                <li class="dropdown"><a href="javascript:void(0)"class="dropbtn"><i class="fas fa-map-pin"></i>Desafios</a>
+                    <div class="dropdown-content">
+                      <a href="#">Quiz</a>
+                      <a href="#">Ranking</a>
+                    </div>
+                <li><a href="#"><i class="fas fa-calendar"></i>Eventos</a></li>
+                <li class="dropdown"><a href="javascript:void(0)"class="dropbtn"><i class="fas fa-address-card"></i>Minha conta</a>
+                    <div class="dropdown-content">
+                      <a href="./login.html">Log Out</a>
+                      <a href="#">Alterar senha</a>
+                    </div>
+            </ul> 
+        </div>
+        <div class="main_content">
+            <div class="header">
+                <input  class="pesquisar" type="text" value="Pesquisar">
+                <a  class="noti-btn" href=""><img width="40" height="40" src="https://img.icons8.com/material-rounded/48/bell--v1.png" alt="bell--v1"/></a>
+                <a  class="noti-btn" href=""><img width="40" height="40" src="https://img.icons8.com/ios/50/topic-push-notification.png" alt="topic-push-notification"/></a>
+                <div class="profile-text">
+                    <h2>Felipe</h2>
+                    <h3>Souza</h3>
+                    <h6>CEO</h6>
                 </div>
+                <a href="./profile.html"><img  class="profile" width="60" height="60" src="https://img.icons8.com/ios-glyphs/60/user-male-circle.png" alt="user-male-circle"/></a>
+            </div>  
+            <div class="info">
+                <h1>Video Pitch</h1>
+                <h4>Home / <strong>Video Pitch</strong></h4>
+                <div class="video">
+                    <iframe width="760" height="515" src="https://www.youtube.com/embed/C0_fCVjL_e8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+          </div>
+          <div class="info">
+            <h1>Integrantes</h1>
+                <h4>Home / <strong>Integrantes</strong></h4>
+                <div class="flex">
+                    <div class="box-perfil">
+                        <div class="fundo">
+                            <img class="fundo" src="./img/fundo-perfil-1.jpg" alt="">
+                        </div>
+                        <div class="perfil">
+                            <img class="perfil" src="./img/Israel.JPG" alt="">
+                        </div>
+                        <div class="texto-perfil">
+                            <h3>Israel Antunes Neto - RM 97067</h3>
+                            <p>Gestor de CSS, Desenvolvimento</p>
+                        </div>
+                    </div>
     
-                <div class="registra-se">
-                    <a href="./registrese.html"><button class="btn-log-res">registra-se</button></a>
-                </div>
-            </div>
- 
-
-            <div class="cadastros">
-                <form action="">
-                    
-                    <span><div><input type="text" id="divEmail_Registro"  placeholder="Digite seu e-mail"></div></span>
-                   
-                    
-                    <span><div><input type="password" id="divSenhaRegistro"  placeholder="Digite sua senha"></div></span>
-
-                    <div id="verificaDiv">
-                        <input type="submit" value="Registrar">
-                        <span id="registrese_text14k"></span>
+                    <div class="box-perfil">
+                        <div class="fundo">
+                            <img class="fundo" src="./img/fundo-perfil-2.jpg" alt="">
+                        </div>
+                        <div class="perfil">
+                            <img class="perfil" src="./img/pedro-menezes.jpg" alt="">
+                        </div>
+                        <div class="texto-perfil">
+                            <h3>Pedro Menezes - RM 97432</h3>
+                            <p>Degin Criativo, Desenvolvimento</p>
+                        </div>
                     </div>
 
-                    
-                  </form>
+                    <div class="box-perfil">
+                        <div class="fundo">
+                            <img class="fundo" src="./img/fundo-perfil-3.jpg" alt="">
+                        </div>
+                        <div class="perfil">
+                            <img class="perfil" src="./img/Nalanda.jpg" alt="">
+                        </div>
+                        <div class="texto-perfil">
+                            <h3>Nalanda Silva  - RM 97365</h3>
+                            <p>Gestora de CSS, Desenvolvimento Criativo</p>
+                        </div>
+                    </div>
+
+                    <div class="box-perfil">
+                        <div class="fundo">
+                            <img class="fundo" src="./img/fundo-perfil-4.jpg" alt="">
+                        </div>
+                        <div class="perfil">
+                            <img class="perfil" src="./img/pedro-scardua.jpeg" alt="">
+                        </div>
+                        <div class="texto-perfil">
+                            <h3>Pedro Scardua - RM 97175</h3>
+                            <p>Construção HTML, Edição PITCH</p>
+                        </div>
+                    </div>
+                </div>
+                
+                
+          </div>
+          <div class="info">
+            <h1>Sobre o Projeto</h1>
+            <h4>Home / <strong>Sobre o Projeto</strong></h4>
+            <div class="paragrafo">
+                <h1 class="sobre-titulo">Promovendo a Sustentabilidade com a Inovação Digital na Schneider</h1>
+                <h2 class="sub-titulo">Introdução:</h2>
+                <p class="texto-paragrafo">
+                    Nosso compromisso contínuo com o meio ambiente e os padrões sustentáveis tem sido o cerne da nossa missão na Schneider. Nesse sentido, apresentamos uma 
+                    iniciativa revolucionária que visa não apenas reforçar a nossa posição como defensores do meio ambiente, mas também envolver todos os membros da nossa 
+                    organização nesta causa vital. Esta inovação é a nossa nova plataforma interna de desafios de sustentabilidade.
+                </p>
+            </div>
+            <div class="paragrafo">
+                <h2 class="sub-titulo">Desenvolvimento:</h2>
+                <p class="texto-paragrafo">
+                    Esse projeto foi concebido e desenvolvido por uma equipe dedicada de quatro integrantes, cada um trazendo suas habilidades e talentos únicos para a mesa. 
+                    <strong>Nalanda Silva</strong>, com sua competência excepcional em CSS, tem sido a força motriz por trás da gestão do estilo e do desenvolvimento criativo da plataforma. Ela assegurou
+                    que a interface fosse não só funcional, mas também esteticamente agradável e fácil de usar.</p>
+
+                <p class="texto-paragrafo">    
+                    <strong>Pedro Scardua</strong> desempenhou um papel fundamental na construção do esqueleto da plataforma, tomando a liderança na construção do HTML. Além disso, ele mostrou sua 
+                    versatilidade ao criar o vídeo de pitch do projeto, ajudando a transmitir a visão e a importância da plataforma de maneira eficaz e envolvente. Auxiliando em reuniões
+                    e liderando a caminhada do projeto.</p>
+                
+                    <p class="texto-paragrafo">
+                    Com uma perspectiva única sobre o design e o desenvolvimento, <strong>Pedro Menezes</strong> utilizou sua experiência para trazer à vida a visão da plataforma. Seu trabalho meticuloso
+                    e atenção aos detalhes ajudaram a criar uma experiência de usuário excepcional, to  rnando a plataforma um espaço convidativo e interativo para os funcionários.</p>
+                
+                    <p class="texto-paragrafo">
+                    Finalmente, <strong>Israel Antunes Neto</strong>, um desenvolvedor altamente qualificado e gestor de CSS, trouxe suas habilidades técnicas para garantir a consistência visual e a usabilidade da 
+                    plataforma. Com seu trabalho diligente, a plataforma alcançou uma estabilidade e eficiência excepcionais.</p>
+
+                
             </div>
 
+          </div>
+          <div class="block"></div>
         </div>
-
-        <script src="./registro.js"></script>
-
+    </div>
+    
 </body>
 </html>

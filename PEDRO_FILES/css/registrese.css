@@ -82,21 +82,22 @@ input, select {
   font-weight: bold;
 }
 
-input[type=submit] {
-  width: 50%;
+.btn-log{
   background-color: #009531;
-  color: white;
-  padding: 20px 20px;
-  margin: 46px 145px;
   border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: bold;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  width: 50%;
+  margin-left: 150px;
+  margin-top: 50px;
 }
 
-input[type=submit]:hover {
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+.btn-log:hover{
+  opacity: 0.75;
 }
 
 @media screen and (max-width: 630px){
