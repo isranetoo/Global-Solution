@@ -113,6 +113,9 @@ li a, .dropbtn {
     text-decoration: none;
   }
   
+ .ativo{
+  background-color: #036924;
+ }
   
   .dropdown-content {
     display: none;
