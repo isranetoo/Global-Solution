@@ -17,6 +17,11 @@ body{
     margin-top: -35px;
 }
 
+.block{
+    width: 100%;
+    height: 50px;
+}
+
 strong{
     color: #009530;
 }
@@ -178,4 +183,97 @@ li a, .dropbtn {
 h1{
     margin-top: 50px;
     margin-left: 50px;
+}
+
+.calendario{
+  margin-top: 100px;
+}
+
+
+.mes {
+  padding: 70px 25px;
+  width: 70%;
+  margin: auto;
+  background: #009530;
+  text-align: center;
+}
+
+
+.mes ul {
+  margin: 0;
+  padding: 0;
+}
+
+.mes ul li {
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+
+.mes .volta {
+  float: left;
+  padding-top: 10px;
+}
+
+
+.mes .proximo {
+  float: right;
+  padding-top: 10px;
+}
+
+.dias-semana {
+  width: 70%;
+  margin: auto;
+  padding: 15px 0;
+  background-color:#ddd;
+}
+
+.dias-semana li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+  font-size: 30px;
+}
+
+.dias {
+  margin: auto;
+  width: 70%;
+  padding: 20px 0;
+  background: #eee;
+}
+
+.dias{
+  height: 510px;
+}
+
+.dias li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 70px;
+  font-size: 30px;
+  color: #777;
+}
+
+.dias li .activo {
+  padding: 15px;
+  background: #009530;
+  color: white !important
+}
+
+.eventos-dias{
+  margin-top: 50px;
+  margin-left: 150px;
+}
+
+.dias-dos-eventos{
+
+}
+
+.dias-sig{
+  padding: 30px;
 }
